@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav-container">
+                <a href="" class="menu-item home">
+                    <i class="fas fa-home"></i> Home
+                </a>
+                <a class="logo" href=""><img src="/images/logo.png" alt=""></a>
+                <a href="" class="menu-item cart">
+                    <i class="fas fa-shopping-cart"></i> Cart
+                </a>
+            </div>
+        </div>
+    </nav>
+    <div id="sale" class="container">
+        <div class="sale-item">
+            <p class="sale-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. In tenetur enim vel?
+                Esse
+                cum,
+                ipsum odio architecto, ullam pariatur, est cupiditate obcaecati veniam exercitationem debitis.</p>
+        </div>
+        <div class="sale-item-details">
+            <h2 class="item-of-day header">Item of the Day</h2>
+            <h3 class="sale-item-name header">Item Name</h3>
+            <ul class="details">
+                <li>Item Detail 1</li>
+                <li>Item Detail 2</li>
+                <li>Item Detail 3</li>
+                <li>Item Detail 4</li>
+            </ul>
+        </div>
+    </div>
+    <div id="catalog">
+        <h1 class="header">Our Catalog</h1>
+        <div id="catalog-container">
+            <div id="filters">
+                <div id="filter-prices">
+                    <h4 class="header">Price</h4>
+                    <p class="slider-label">Minimum</p>
+                    <div class="slider" id="min-price">
+                        <span>$50</span>
+                        <input type="range" min="1" max="500" value="50">
+                    </div>
+                    <p class="slider-label">Maximum</p>
+                    <div class="slider" id="max-price">
+                        <span>$250</span>
+                        <input type="range" min="1" max="500" value="250">
+                    </div>
+                </div>
+                <a class="filter-button button button-disabled" href="">Filter</a>
+            </div>
+            <div id="catalog-items">
+                <div id="sorts">
+                    <div id="filter-types">
+
+                    </div>
+                    <div id="sort-options">
+                        <select name="sort-select" id="sort-select">
+                            <option value="bestSelling">Best Selling</option>
+                            <option value="priceDown">Price &darr;</option>
+                            <option value="priceUp">Price &uarr;</option>
+                        </select>
+                    </div>
+                </div>
+                <div id="items-container">
+                </div>
+                <div id="pagination">
+                    <i class="fas fa-caret-left pagination-link pagination-arrow pagination-previous"></i>
+                    <i class="fas fa-caret-right pagination-link pagination-arrow pagination-next"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal">
+        <div id="item-details-modal">
+            <div class="item">
+                <div class="item-image"></div>
+                <div class="item-details">
+                    <h3 class="name header">Item Name</h3>
+                    <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse iusto
+                        deserunt
+                        delectus laboriosam adipisci blanditiis ratione optio autem consequuntur laudantium
+                        corporis, sint nemo est harum.</p>
+                </div>
+            </div>
+            <div class="full-details">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus tempore esse sequi! Eveniet, facere.
+                Iste dolor alias tempora dolore aliquam explicabo repellat pariatur earum repellendus eveniet.
+                Assumenda perferendis cumque odit suscipit delectus omnis earum dolorum, error neque maiores tempore
+                quaerat nulla nam, quidem dolor iure porro ratione nesciunt eveniet. Assumenda fugit delectus libero
+                ducimus in quam ipsa enim illum maiores architecto distinctio reiciendis recusandae ad alias voluptatem
+                vel a consequuntu
+            </div>
+        </div>
+    </div>
+    <script src="data.js"></script>
+    <script src="types.js"></script>
+    <script src="helpers.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
